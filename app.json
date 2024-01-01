@@ -1,0 +1,31 @@
+{
+  "name": "Gojo",
+  "description": "The crow will bring evil into your life.",
+  "logo": "https://telegra.ph/file/e7f7bd7066aa1937e48b3.jpg",
+  "keywords": [
+    "telegram",
+    "devil",
+    "powerful",
+    "productivity"
+  ],
+  "env": {
+    "api_id": {
+      "description": "Collect this value from my.telegram.org and do not share it with anyone.",
+      "value": "",
+      "required": true
+    },
+    "api_hash": {
+      "description": "Collect this value from my.telegram.org and do not share it with anyone.",
+      "value": "",
+      "required": true
+    },
+    "string": {
+      "description": "Secret Token",
+      "value": "",
+      "required": true
+    }
+  },
+  "buildpacks": [{
+      "url": "heroku/python"
+    }]
+}
